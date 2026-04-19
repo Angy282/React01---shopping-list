@@ -12,7 +12,6 @@ const ProductCard = ({ product }) => {
       {/* Content */}
       <section className={card.content}>
         <h3 className={card.title}>{product.name}</h3>
-
         <p className={card.description}>{product.description}</p>
 
         <div className={card.priceRatingContainer}>
